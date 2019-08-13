@@ -1,0 +1,8 @@
+"""
+    List                                                  tuple
+
+    1.syntax is L=[]                                 1.syntax is T=()
+    2.list is mutable                                2.Tuple is immutable.
+    3.list provides more functionality than tuple    3.less functionality
+    4.
+"""  
