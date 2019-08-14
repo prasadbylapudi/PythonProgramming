@@ -1,0 +1,5 @@
+Isdisjoint()
+Issubset()
+issuperset()
+symmetric_difference()
+symmetric_difference_update()

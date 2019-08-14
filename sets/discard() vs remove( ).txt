@@ -1,0 +1,7 @@
+Despite the fact that discard() and remove() method both perform the same task, There is one main difference between discard() and remove().
+
+If the key to be deleted from the set using discard() doesn't exist in the set, the python will not give the error. The program maintains its control flow.
+
+On the other hand, if the item to be deleted from the set using remove() doesn't exist in the set, the python will give the error.
+
+Consider the following example.
