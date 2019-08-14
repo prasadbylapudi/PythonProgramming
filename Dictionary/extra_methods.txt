@@ -1,0 +1,16 @@
+dic.clear()
+dict.copy()
+dict.fromkeys(iterable,value=none,/)
+dict.get(key,default="None")
+dict.has_key(key)
+dict.keys()
+dict.items();
+dict.setdefault(key,default="none");
+dict.update(dict2)
+dict.values
+len()
+popItem()
+pop()
+count()
+index()
+#these are the extra methods

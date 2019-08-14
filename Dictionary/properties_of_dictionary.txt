@@ -1,0 +1,26 @@
+1. In the dictionary, we can not store multiple values for the same keys. If we pass more than one values for a single key, then the value which is last assigned is considered as the value of the key.
+
+Employee = {"Name": "John", "Age": 29, "Salary":25000,"Company":"GOOGLE","Name":"Johnn"}  
+for x,y in Employee.items():  
+    print(x,y)
+
+
+output:
+    Salary 25000
+    Company GOOGLE
+    Name Johnn
+    Age 29
+
+
+
+2.In python, the key cannot be any mutable object. We can use numbers, strings, or tuple as the key but we can not use any mutable object like the list as the key in the dictionary.
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE",[100,201,301]:"Department ID"}  
+for x,y in Employee.items():  
+    print(x,y)  
+
+
+output:Error
+    Traceback (most recent call last):
+  File "list.py", line 1, in 
+    Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE",[100,201,301]:"Department ID"}
+TypeError: unhashable type: 'list'
