@@ -1,0 +1,85 @@
+There may be several types of arguments which can be passed at the time of function calling.
+
+1.Required arguments
+2.Keyword arguments
+3.Default arguments
+4.Variable-length arguments
+
+
+1.Required arguments.
+
+
+However, we can provide the arguments at the time of function calling.
+As far as the required arguments are concerned, these are the arguments which are required to be passed at the time of function calling with the exact match of their positions in the function call and function definition.
+If either of the arguments is not provided in the function call, or the position of the arguments is changed, then the python interpreter will show the error.
+
+example:
+    #the function simple_interest accepts three arguments and returns the simple interest accordingly  
+    def simple_interest(p,t,r):  
+    return (p*t*r)/100  
+    p = float(input("Enter the principle amount? "))  
+    r = float(input("Enter the rate of interest? "))  
+    t = float(input("Enter the time in years? "))  
+    print("Simple Interest: ",simple_interest(p,r,t))
+
+
+2.keyword Arguments
+
+Python allows us to call the function with the keyword arguments.
+This kind of function call will enable us to pass the arguments in the random order.
+
+The name of the arguments is treated as the keywords and matched in the function calling and definition.
+If the same match is found, the values of the arguments are copied in the function definition.
+
+
+example:
+    def func(name,message):  
+    print("printing the message with",name,"and ",message)  
+    func(name = "John",message="hello") #name and message is copied with the values John and hello respectively
+
+
+
+
+3.Default arguments
+Python allows us to initialize the arguments at the function definition.
+If the value of any of the argument is not provided at the time of function call, then that argument can be initialized with the value given in the definition even if the argument is not specified at the function call.
+
+Example:
+    def printme(name,age=22):  
+    print("My name is",name,"and age is",age)  
+    printme(name = "john")
+
+
+
+
+4.variable length arguments
+In the large projects, sometimes we may not know the number of arguments to be passed in advance.
+In such cases, Python provides us the flexibility to provide the comma separated values which are internally treated as tuples at the function call.
+
+However, at the function definition, we have to define the variable with * (star) as *<variable - name >.
+
+
+examaple:
+    def printme(*names):  
+    print("type of passed argument is ",type(names))  
+    print("printing the passed arguments...")  
+    for name in names:  
+        print(name)  
+    printme("john","David","smith","nick")  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

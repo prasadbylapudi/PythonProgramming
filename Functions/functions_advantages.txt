@@ -1,0 +1,12 @@
+There are the following advantages of C functions.
+
+By using functions, we can avoid rewriting same logic/code again and again in a program.
+We can call python functions any number of times in a program and from any place in a program.
+We can track a large python program easily when it is divided into multiple functions.
+Reusability is the main achievement of python functions.
+However, Function calling is always overhead in a python program.
+
+
+The function block is started with the colon (:) and all the same level block statements remain at the same indentation.
+
+A function can accept any number of parameters that must be the same in the definition and function calling.

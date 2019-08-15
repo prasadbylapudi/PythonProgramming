@@ -1,0 +1,9 @@
+The scopes of the variables depend upon the location where the variable is being declared. The variable declared in one part of the program may not be accessible to the other parts.
+
+In python, the variables are defined with the two types of scopes.
+
+Global variables
+Local variables
+The variable defined outside any function is known to have a global scope whereas the variable defined inside a function is known to have a local scope.
+
+
